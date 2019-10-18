@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "animelists",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "animelists",
+    "host": "127.0.0.1",
+    "dialect": "postgress",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "postgress",
+    "password": null,
+    "database": "animelists",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

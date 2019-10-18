@@ -1,0 +1,9 @@
+extend layout
+
+block content
+  h1 Anime Index
+    ul
+      each cat in animelists
+        li
+          - var catUrl = '/animelists/' + cat.id
+          a(href=catUrl)= cat.title
