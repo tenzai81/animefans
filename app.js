@@ -1,6 +1,8 @@
+const dotenv = require("dotenv");
 const express = require('express');
 const app = express();
 const models = require("./models")
+dotenv.config();
 
 app.set("view engine", "pug");
 app.use(express.static("public"));
@@ -21,4 +23,4 @@ app.get("/animelists/:id", async (req, res) =>{
 })
 
 
-app.listen(3000)
+app.listen(process.env.PORT)
